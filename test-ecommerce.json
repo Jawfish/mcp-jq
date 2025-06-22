@@ -1,0 +1,118 @@
+{
+  "store": {
+    "name": "Tech Gadgets Store",
+    "location": "Online",
+    "currency": "USD"
+  },
+  "products": [
+    {
+      "id": "LAPTOP001",
+      "name": "Professional Laptop",
+      "category": "computers",
+      "price": 1299.99,
+      "inStock": true,
+      "quantity": 15,
+      "specifications": {
+        "processor": "Intel i7",
+        "memory": "16GB",
+        "storage": "512GB SSD",
+        "display": "15.6 inch"
+      },
+      "reviews": [
+        {
+          "user": "techuser1",
+          "rating": 5,
+          "comment": "Excellent performance!",
+          "date": "2024-01-10"
+        },
+        {
+          "user": "buyer123",
+          "rating": 4,
+          "comment": "Good value for money",
+          "date": "2024-01-08"
+        }
+      ],
+      "tags": ["laptop", "professional", "business"]
+    },
+    {
+      "id": "PHONE002",
+      "name": "Smartphone Pro",
+      "category": "phones",
+      "price": 899.99,
+      "inStock": true,
+      "quantity": 25,
+      "specifications": {
+        "processor": "A16 Bionic",
+        "memory": "128GB",
+        "display": "6.1 inch OLED",
+        "camera": "48MP"
+      },
+      "reviews": [
+        {
+          "user": "photogeek",
+          "rating": 5,
+          "comment": "Amazing camera quality",
+          "date": "2024-01-12"
+        }
+      ],
+      "tags": ["smartphone", "camera", "premium"]
+    },
+    {
+      "id": "TABLET003",
+      "name": "Creative Tablet",
+      "category": "tablets",
+      "price": 599.99,
+      "inStock": false,
+      "quantity": 0,
+      "specifications": {
+        "processor": "M1 chip",
+        "memory": "64GB",
+        "display": "10.9 inch",
+        "stylus": "included"
+      },
+      "reviews": [],
+      "tags": ["tablet", "creative", "drawing"]
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "ORD-2024-001",
+      "customerId": "CUST001",
+      "items": [
+        {
+          "productId": "LAPTOP001",
+          "quantity": 1,
+          "price": 1299.99
+        },
+        {
+          "productId": "PHONE002", 
+          "quantity": 2,
+          "price": 899.99
+        }
+      ],
+      "total": 3099.97,
+      "status": "completed",
+      "orderDate": "2024-01-15T09:30:00Z"
+    },
+    {
+      "orderId": "ORD-2024-002",
+      "customerId": "CUST002",
+      "items": [
+        {
+          "productId": "TABLET003",
+          "quantity": 1,
+          "price": 599.99
+        }
+      ],
+      "total": 599.99,
+      "status": "pending",
+      "orderDate": "2024-01-18T14:15:00Z"
+    }
+  ],
+  "analytics": {
+    "totalRevenue": 3699.96,
+    "averageOrderValue": 1849.98,
+    "topSellingCategory": "computers",
+    "inventoryValue": 28999.72
+  }
+}

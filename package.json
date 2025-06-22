@@ -1,0 +1,46 @@
+{
+  "name": "@jawfish/mcp-jq",
+  "version": "0.1.0",
+  "description": "MCP server for jq JSON processing operations",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "main": "index.ts",
+  "files": [
+    "index.ts",
+    "lib/**/*",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "biome lint --fix --unsafe && tsc --noEmit",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.57"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/bun": "latest",
+    "@types/node": "^20.0.0",
+    "vitest": "^3.2.3",
+    "@vitest/coverage-v8": "^1.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "jq",
+    "json",
+    "processing"
+  ],
+  "author": "James Fitzgerald",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jawfish/mcp-jq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jawfish/mcp-jq/issues"
+  },
+  "homepage": "https://github.com/jawfish/mcp-jq#readme"
+}

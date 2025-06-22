@@ -1,0 +1,16 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "email": "john.doe@example.com",
+  "active": true,
+  "score": 85.5,
+  "tags": ["developer", "javascript", "nodejs"],
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "CA",
+    "zipcode": "12345"
+  },
+  "metadata": null,
+  "lastLogin": "2024-01-15T10:30:00Z"
+}
